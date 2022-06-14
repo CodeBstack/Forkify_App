@@ -2,10 +2,10 @@
   "name": "forkify",
   "version": "1.0.0",
   "description": "Recipe Application",
-  "main": "index.html",
+  "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel index.html"
+    "build": "parcel index.html --dist-dir ./dist"
   },
   "author": "CodeBstack",
   "license": "ISC",
@@ -17,5 +17,13 @@
   },
   "devDependencies": {
     "sass": "^1.52.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeBstack/Recipe-Application.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CodeBstack/Recipe-Application/issues"
+  },
+  "homepage": "https://github.com/CodeBstack/Recipe-Application#readme"
 }
