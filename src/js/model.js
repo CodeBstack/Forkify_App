@@ -1,6 +1,7 @@
 // import { get } from 'core-js/core/dict';
 import { async } from 'regenerator-runtime';
 import { API_URL, RES_PER_PAGE, KEY } from './config.js';
+
 // import { getJSON, setJSON } from './helpers.js';
 import { AJAX } from './helpers.js';
 
@@ -130,7 +131,7 @@ init();
 const clearBookmarks = function () {
   localStorage.clear('bookmarks');
 };
-clearBookmarks;
+// clearBookmarks;
 
 export const uploadRecipe = async function (newRecipe) {
   // console.log(newRecipe);

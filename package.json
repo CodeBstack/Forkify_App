@@ -5,7 +5,7 @@
   "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel index.html --dist-dir ./dist"
+    "build": "parcel index.html"
   },
   "author": "CodeBstack",
   "license": "ISC",
